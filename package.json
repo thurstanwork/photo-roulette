@@ -1,0 +1,19 @@
+{
+  "name": "slq-photo-roulette",
+  "version": "0.1",
+  "description": "A guessing game trying to determine the year a photo from the State Library Queensland's collection was taken",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/loc-photo-roulette"
+  },
+  "license": "MIT"
+}
