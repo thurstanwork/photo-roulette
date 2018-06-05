@@ -1,0 +1,115 @@
+
+#headline {font-weight: bold;}
+#paper {font-style: italic;}
+body{font-family:"Helvetica Neue", Helvetica, san-serif;font-size:20px;margin: 0;background: hsl(0,0%,90%);display:;flex:;}
+#count {text-align:center;border-radius: 4px;max-width: 12rem;margin: 1rem;background:  white;}
+#count p {margin: 0;/* font-weight: bold; */padding: .5rem;}
+#guesses {font-size:3rem;font-weight:  bold;color: hsl(0,0%,30%);}
+#text-guesses {color: #ffffff;font-size: 1.4rem;}
+.label {padding: 10px;}
+#status {}
+.input-year {width: 5rem;text-align:  right;}
+.status-ok { background: #3fad46;}
+.status-warning { background: #f0ad4e;}
+.status-danger { background: #d9534f; }
+.border-ok { border: 1px solid #3fad46;}
+.border-warning {  border: 1px solid #f0ad4e; }
+.border-danger { border: 1px solid #d9534f; }
+.border-top { border-top: 1px solid #999;}
+/* footer {padding: 1rem 2rem;margin-top: 2rem;box-shadow: 0 0 .75rem black;background: hsl(0,0%,0%);color: hsl(0,0%,80%);font-size: .9rem;} */
+
+img { max-width: 80vw; max-height:80vh;}
+
+.loading-indicator {
+	height: 80px;
+	width: 80px;
+	background: url('https://cdn.glitch.com/525f3781-47b3-4fc3-87f5-fef704d62371%2Floading.gif?1515388800627');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.loading-indicator-overlay {
+	background-color: #FFFFFF;
+	opacity: 0.6;
+	filter: alpha(opacity = 60);
+}
+
+/* SLQ Standard footer for microsites */
+
+/*** FOOTER ***/
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-flow: wrap;
+    padding-top: .8rem;
+    padding-bottom: 2rem;
+    background: hsla(0, 0%, 0%, .8);
+    margin-top: 2rem;
+    box-shadow: 0 0 .75rem black;
+    color: hsl(0,0%,80%);
+    font-size: .9rem;
+}
+
+footer #logos {
+    display: inline-flex;
+    justify-content: left;
+    align-content: flex-start;
+}
+
+footer #logos a {
+    display: flex;
+    align-items: flex-start;
+    margin: .5rem;
+    max-width: 150px;
+}
+
+footer #logos img {
+    height: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer em {
+    color: white;
+}
+
+footer ul {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-flex;
+    padding-top: .4rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    padding-bottom: .4rem;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+    footer ul {
+        padding-left: 0;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+}
+
+/* Tablet & Desktop */
+
+@media screen and (min-width: 768px) {
+    footer ul {
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+}
